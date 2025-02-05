@@ -102,6 +102,6 @@ export function TokenLaunchpad() {
         <input className='inputText' type='text' placeholder='Symbol' id="symbol"></input> <br />
         <input className='inputText' type='text' placeholder='Image URL' id="image"></input> <br />
         <input className='inputText' type='text' placeholder='Initial Supply' id="supply"></input> <br />
-        <button onClick={createToken} className='btn'>Create a token</button>
+        <button onClick={createToken} className='btn'>Create a token with solana</button>
     </div>
 }
